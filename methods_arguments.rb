@@ -11,7 +11,7 @@
 
 
 def greeting (local_greeting, your_name, my_name , local_time)
-  puts "#{local_greeting} #{your_name}, im #{my_name}, hows your #{local_time}?"
+  #puts "#{local_greeting} #{your_name}, im #{my_name}, hows your #{local_time}?"
 end
 greeting("Hey" , "Dayi","Michelle","morning")
 
