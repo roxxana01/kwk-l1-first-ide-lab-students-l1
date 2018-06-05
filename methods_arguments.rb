@@ -10,11 +10,18 @@
 #Hey,Dayi,im michelle,hows your morning
 
 
-def greeting (local_greeting, your_name, my_name , local_time)
+#def greeting (local_greeting, your_name, my_name , local_time)
   #puts "#{local_greeting} #{your_name}, im #{my_name}, hows your #{local_time}?"
+#end
+#greeting("Hey" , "Dayi","Michelle","morning")
+
+
+
+#def greeting (my_name, my_greeting = "Hi")
+#  puts "#{my_greeting}! I'm #{my_name}"
+#end
+#greeting("Karlie", "hey whats up,hello")
+def gradebook (student_name,grade)
+  puts "Hello #{student_name} , your grade in this class is a(n) #{grade}"
 end
-greeting("Hey" , "Dayi","Michelle","morning")
-
-
-
-
+gradebook("ferris", "c")
